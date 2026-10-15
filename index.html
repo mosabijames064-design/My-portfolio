@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Mosabi | My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h2 class="logo">James<span>.</span></h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>James Mosabi</span></h1>
+
+            <h2>I'm a Student & Web Developer</h2>
+
+            <p>
+                I am learning programming and web development.
+                I enjoy creating websites and learning new technologies.
+            </p>
+
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-box">
+            <div class="about-icon">
+                👨‍💻
+            </div>
+
+            <div>
+                <p>
+                    Hello! My name is <strong>James Mosabi</strong>.
+                    I am a student interested in programming,
+                    web development and technology.
+                </p>
+
+                <p>
+                    I am currently learning HTML, CSS, JavaScript,
+                    C programming and Python. My goal is to improve
+                    my programming skills and create useful websites
+                    and applications.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML</h3>
+                <p>Creating the structure of websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS</h3>
+                <p>Designing beautiful and responsive websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>Adding interaction and functionality to websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>C Programming</h3>
+                <p>Learning programming logic and problem solving.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🐍</div>
+                <h3>Python</h3>
+                <p>Creating programs and solving problems with Python.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <div class="project-number">01</div>
+                <h3>Login System</h3>
+                <p>
+                    A website where users can register and
+                    log into their accounts.
+                </p>
+                <button onclick="showProject('Login System')">
+                    View Project
+                </button>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-number">02</div>
+                <h3>Python Calculator</h3>
+                <p>
+                    A simple calculator created using
+                    Python functions.
+                </p>
+                <button onclick="showProject('Python Calculator')">
+                    View Project
+                </button>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-number">03</div>
+                <h3>Study Website</h3>
+                <p>
+                    A website containing programming notes
+                    and learning resources.
+                </p>
+                <button onclick="showProject('Study Website')">
+                    View Project
+                </button>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-number">04</div>
+                <h3>Barbarian Website</h3>
+                <p>
+                    A website for a group interested in
+                    learning new skills.
+                </p>
+                <button onclick="showProject('Barbarian Website')">
+                    View Project
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-box">
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Write your message..."
+                    rows="6"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+            <div id="formMessage"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>James<span>.</span></h3>
+
+        <p>
+            © 2026 James Mosabi. All Rights Reserved.
+        </p>
+
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">GitHub</a>
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
